@@ -1,0 +1,90 @@
+Experiment 01: Simple Dynamic Content and Links 
+
+Database: yardbird00
+
+-------
+
+Experiment 02: DBIx::Class 
+
+a) Database: yardbird01
+
+b) Added name method to User.pm Result class.
+
+b) Added ResultSet/Blog.pm
+
+b) AutoCRUD
+
+-------
+
+Experiment 03: Layout 
+
+Created:
+
+* root/static/css/main.css
+
+* root/header.tt
+
+* root/footer.tt
+
+Used them in:
+
+* root/index.tt
+
+* root/blog.tt
+
+-------
+
+10: Authentication/Authorization
+
+a) Create New Catalyst Application
+     Create and Configure a TT View
+
+b) Create New Database
+   Create and Configure a Model and Schema
+     Include Authentication and Session Plugins
+     Configure Authentication
+     Modify the 'password' Column to Use PassphraseColumn
+     Load Hashed Password into the Database 
+
+c) Create New Controllers 
+   Add Feature: Login
+   Add Feature: Logout
+
+d) Add Feature: Create New Member
+     Not a member?
+
+e) Add Feature: Create New Member
+     Join now!
+
+11: View Blogs
+
+a) AutoCRUD
+b) View Recent Blog Entries 
+c) View a Specific Blog Entry 
+     Click on Title in Main Content Area
+d)   Click on Title in Sidebar Menu
+       blog/entries Page
+e)     blog Page
+f)   Click on Member Name in Sidebar Menu
+
+12: Create and View Comments
+
+a) Create Comments
+b) View Comments
+
+13: Create, Edit, and Delete Blog Entries 
+
+a) Create New Blog Entry, unauthorized_action method.
+b) Edit Blog Entry.
+c) Delete Blog Entry.
+d) Auto-Generate Blog Entry.
+
+14: Edit and Delete Comments
+
+15: Edit, Delete and View Members
+
+a) Login
+b) Edit Members
+c) Create New Members: Improved
+d) Delete Members 
+e) View Members 
